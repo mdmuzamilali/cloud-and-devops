@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mohammed Muzamil Ali | Cloud & DevOps Engineer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    /* Reset */
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Roboto', sans-serif; }
+
+    body {
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: #fff;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 50px;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+      color: #00c6ff;
+      text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: #a0e9ff;
+    }
+
+    .cloud-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      max-width: 1000px;
+    }
+
+    .service-card {
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 20px;
+      padding: 30px;
+      width: 200px;
+      text-align: center;
+      transition: transform 0.3s, background 0.3s;
+      cursor: pointer;
+    }
+
+    .service-card:hover {
+      transform: translateY(-10px);
+      background: rgba(0, 198, 255, 0.2);
+    }
+
+    .service-card img {
+      width: 60px;
+      margin-bottom: 15px;
+    }
+
+    .service-card h3 {
+      font-size: 1.2rem;
+      margin-bottom: 5px;
+    }
+
+    .service-card p {
+      font-size: 0.9rem;
+      color: #e0f7ff;
+    }
+
+    footer {
+      margin-top: 50px;
+      font-size: 0.8rem;
+      color: #a0e9ff;
+    }
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Mohammed Muzamil Ali</h1>
+    <p>Cloud & DevOps Engineer</p>
+  </header>
+
+  <section class="cloud-container">
+    <div class="service-card">
+      <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/aws.svg" alt="AWS Logo">
+      <h3>AWS</h3>
+      <p>EC2, S3, Lambda, CloudFormation</p>
+    </div>
+    <div class="service-card">
+      <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/microsoftazure.svg" alt="Azure Logo">
+      <h3>Azure</h3>
+      <p>VMs, App Services, Functions, ARM Templates</p>
+    </div>
+    <div class="service-card">
+      <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/docker.svg" alt="Docker Logo">
+      <h3>Docker</h3>
+      <p>Containerization & Microservices</p>
+    </div>
+    <div class="service-card">
+      <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/kubernetes.svg" alt="Kubernetes Logo">
+      <h3>Kubernetes</h3>
+      <p>Orchestration & Scaling</p>
+    </div>
+  </section>
+
+  <footer>
+    © 2026 Mohammed Muzamil Ali | All Rights Reserved
+  </footer>
+
+</body>
+</html>
